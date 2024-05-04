@@ -20,8 +20,17 @@ form {
   border: 1px dashed;
   display: flex;
   flex-direction: column;
-  height: 80%;
-  width: 80%;
+  height: 40%;
+  width: 40%;
   justify-content: space-evenly;
   align-items: center;
+  font-size: 30px;
+}
+
+input{
+  font-size: 20px;
+}
+
+input.hover{
+  color: rgb(184, 242, 240);
 }
